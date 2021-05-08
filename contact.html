@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raleigh Morning Star Curia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link href="contactstyles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#navbar").slicknav({
+
+                prependTo: "#mobilemenu",
+                label: ""
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1><a href="index.html">Raleigh Morning Star Curia</a></h1>
+        </header>
+        <nav id="mobilemenu"></nav>
+        <nav id="navbar">
+            <ul class="navbar">
+                <li><a class="navitem" href="#">Events</a></li>
+                <li><a class="navitem" href="photosvideos.html">Photos/Videos</a></li>
+                <li><a class="navitem" href="#">Resources ▼</a></li>
+                <li><a class="navitem" href="#">Presidiums ▼</a></li>
+                <li><a class="navitemactive" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Contact Us</h1>
+            <fieldset>
+                <form action=”mailto:dhpergerson@gmail.com” method=”POST” enctype=”multipart/form-data”
+                    name=”EmailForm”>
+                    <div>
+                        <label for="first-name">Name: </label><br>
+                        <input type="text" name="firstname" id="first-name">
+                    </div>
+                    <div>
+                        <label for="message">Message: </label><br>
+                        <textarea id="message" rows="5" cols="20"></textarea>
+                    </div>
+                    <button type=”submit”>Submit</button>
+                </form>
+            </fieldset>
+            <br>
+            <p>For additional information: <br> contact <span>Vice President Deborah Pergerson</span> at
+                dhpergerson@gmail.com
+                <br>
+                or <span>President Tammy Huffman</span> at luvr1mary@gmail.com
+            </p>
+        </main>
+        <aside class="calendar">
+            <h2>Calendar</h2>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23b3e5fc&amp;ctz=America%2FNew_York&amp;src=a29lMzdlcWEwYjYyZmdvc2VrcGgwZDl2bG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;showNav=0&amp;showPrint=0&amp;showTabs=1&amp;showTz=0&amp;showCalendars=0"
+                style="border-width:0" width="250" height="350" frameborder="0" scrolling="no"></iframe>
+        </aside>
+        <footer>
+            <p>The Morning Star Curia of the Legion of Mary represents all Legion of Mary groups in: Raleigh, Wake
+                Forest, Durham, Garner, Clayton, Fayetteville, Goldsboro, Rocky Mount, Wilmington, Hope Mills, North
+                Carolina (USA). The Morning Star Curia is attached to the Arlington Regia (VA, USA).
+                If you do not live in North Carolina (USA), there may still be a Legion of Mary in your area.
+                Please
+                <a class="contactlink" href="contact.html">contact us</a>, and we can check for you. Please pray for us!
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

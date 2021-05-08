@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raleigh Morning Star Curia</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link href="photovideostyles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#navbar").slicknav({
+
+                prependTo: "#mobilemenu",
+                label: ""
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1><a href="index.html">Raleigh Morning Star Curia</a></h1>
+        </header>
+        <nav id="mobilemenu"></nav>
+        <nav id="navbar">
+            <ul class="navbar">
+                <li><a class="navitem" href="#">Events</a></li>
+                <li><a class="navitemactive" href="photosvideos.html">Photos/Videos</a></li>
+                <li><a class="navitem" href="#">Resources ▼</a></li>
+                <li><a class="navitem" href="#">Presidiums ▼</a></li>
+                <li><a class="navitem" href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h1>Photos/Videos</h1>
+            <div class="flex-container">
+                <section class="imgsection1">
+                    <img class="img1" src="IMG_0352.jpeg" alt="Father Chiantella at the Acies, 2021">
+                    <p>Father Chiantella at the Acies, 2021</p>
+                </section>
+                <section class="imgsection2">
+                    <img class="img2" src="100_0198.jpeg" alt="Father Saxon at the Acies, 2006">
+                    <p>Father Saxon at the Acies, 2006</p>
+                </section>
+                <section class="imgsection3">
+                    <img class="img3" src="morningstarpic.jpg" alt="Father Keane at Our Lady of Lourdes">
+                    <p>Father Keane at Our Lady of Lourdes</p>
+                </section>
+            </div>
+        </main>
+
+        <aside class="calendar">
+            <h2>Calendar</h2>
+            <iframe
+                src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23b3e5fc&amp;ctz=America%2FNew_York&amp;src=a29lMzdlcWEwYjYyZmdvc2VrcGgwZDl2bG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;showNav=0&amp;showPrint=0&amp;showTabs=1&amp;showTz=0&amp;showCalendars=0"
+                style="border-width:0" width="250" height="350" frameborder="0" scrolling="no"></iframe>
+        </aside>
+        <footer>
+            <p>The Morning Star Curia of the Legion of Mary represents all Legion of Mary groups in: Raleigh, Wake
+                Forest, Durham, Garner, Clayton, Fayetteville, Goldsboro, Rocky Mount, Wilmington, Hope Mills, North
+                Carolina (USA). The Morning Star Curia is attached to the Arlington Regia (VA, USA).
+                If you do not live in North Carolina (USA), there may still be a Legion of Mary in your area.
+                Please
+                <a class="contactlink" href="contact.html">contact us</a>, and we can check for you. Please pray for us!
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
