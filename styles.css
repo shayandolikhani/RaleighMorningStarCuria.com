@@ -92,6 +92,10 @@ main p {
     color: #448AFF;
 }
 
+.eventlist li a {
+    color: #448AFF;
+}
+
 .eventlist li a:visited {
     color: #448AFF;
 }

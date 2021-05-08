@@ -48,6 +48,14 @@ header h1 {
     font-weight: 400;
 }
 
+header h1 a {
+    color: white;
+}
+
+header h1 a:visited {
+    color: white;
+}
+
 header h1 a:hover {
     color: #212121;
     cursor: pointer;
@@ -55,10 +63,6 @@ header h1 a:hover {
 
 h1 a {
     text-decoration: none;
-}
-
-h1 a:visited {
-    color: white;
 }
 
 nav {
