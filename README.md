@@ -4,5 +4,5 @@ Utilizes CSS Grid for layout, Google Fonts for fonts, and SlickNav for mobile me
 
 # View on Github Pages:
 
-[Raleigh Morning Star Curia] (https://shayandolikhani.github.io/RaleighMorningStarCuria.com/index.html)
+[Raleigh Morning Star Curia](https://shayandolikhani.github.io/RaleighMorningStarCuria.com/index.html)
 
