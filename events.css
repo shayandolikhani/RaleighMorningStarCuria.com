@@ -9,7 +9,12 @@
     height: 100vh;
 }
 
-
+.posters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 1%;
+}
 
 section p {
     font-family: "Merriweather", serif;
@@ -111,10 +116,6 @@ main h3 {
     margin-left: 2%;
 }
 
-p {
-    
-}
-
 
 
 .forms li, .arlingtonlink {
@@ -174,6 +175,10 @@ main {
 
 }
 
+.forms {
+    display: none;
+}
+
 @media only screen and (max-width: 970px) {
     .grid-container {
         grid-template-columns: 1fr;
@@ -197,6 +202,10 @@ main {
 
     iframe {
         display: none;
+    }
+
+    .forms {
+        display: block;
     }
     
 
