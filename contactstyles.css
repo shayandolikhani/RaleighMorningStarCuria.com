@@ -125,7 +125,7 @@ textarea {
   
 }
 
-button {
+.submit {
     font-family: "Merriweather", serif;
     background-color:#0288D1;
     color: white;
@@ -134,7 +134,7 @@ button {
     box-shadow: none;
 }
 
-button:hover {
+.submit:hover {
     cursor: pointer;
     background-color: #005583;
 }

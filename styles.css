@@ -176,7 +176,7 @@ main {
         grid-row: 2/3;
     }
 
-    section {
+    .events {
         display: none;
     }
 
@@ -193,9 +193,10 @@ main {
     .calendar {
         grid-column: 1/2;
         grid-row: 4/5;
+        margin-bottom: 10%;
     }
 
-    .events {
+    section {
         grid-column: 2/3;
         grid-row: 4/5;
         
