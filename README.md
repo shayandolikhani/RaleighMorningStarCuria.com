@@ -6,3 +6,4 @@ Utilizes CSS Grid for layout, Google Fonts for fonts, and SlickNav for mobile me
 
 [Raleigh Morning Star Curia](https://shayandolikhani.github.io/RaleighMorningStarCuria.com/index.html)
 
+Website hosted at [raleighmorningstarcuria.com](http://raleighmorningstarcuria.com)
